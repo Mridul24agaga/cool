@@ -105,28 +105,7 @@ export default function Hero() {
               90% less effort.
             </p>
 
-            {/* Search Form */}
-            <div
-              className={`max-w-xl mx-auto transition-all duration-1000 delay-500 ease-out ${
-                isVisible ? "opacity-100 transform translate-y-0" : "opacity-0 transform translate-y-4"
-              }`}
-            >
-              <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-2 sm:gap-0 relative">
-                <input
-                  type="url"
-                  placeholder="Website URL"
-                  className="w-full sm:flex-1 h-12 px-4 rounded-full sm:rounded-l-full sm:rounded-r-none border border-gray-300 focus:outline-none focus:ring-2 focus:ring-orange-600 focus:border-transparent text-sm"
-                  value={url}
-                  onChange={(e) => setUrl(e.target.value)}
-                  required
-                />
-                <button
-                  type="submit"
-                  className="w-full sm:w-auto h-12 px-6 bg-orange-600 text-white font-medium transition-colors hover:bg-orange-700 text-sm rounded-full sm:rounded-l-none sm:rounded-r-full"
-                >
-                  Get Backlinks
-                </button>
-              </form>
+            
             </div>
           </div>
         </div>
