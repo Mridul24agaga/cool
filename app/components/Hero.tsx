@@ -1,11 +1,11 @@
 "use client"
 
+import type React from "react"
+
 import { useState, useEffect } from "react"
-import { ArrowUpRight, Search, X, Gift, ExternalLink, Info } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 import { useRouter } from "next/navigation"
-import { BacklinksTable } from "./backlinks-table"
 import { Line, LineChart, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from "recharts"
 
 const chartData = [
@@ -91,7 +91,7 @@ export default function Hero() {
                 isVisible ? "opacity-100 transform translate-y-0" : "opacity-0 transform translate-y-4"
               }`}
             >
-             Most Affordable High DA 
+              Most Affordable High DA
               <br className="hidden sm:inline" />
               <span className="text-white"> Directory Submission Services</span>
             </h1>
@@ -104,9 +104,6 @@ export default function Hero() {
               The ultimate link building software. Get premium backlinks with high quality outreach, rank higher with
               90% less effort.
             </p>
-
-            
-            </div>
           </div>
         </div>
       </div>
@@ -201,14 +198,9 @@ export default function Hero() {
                 </div>
               </div>
             </div>
-
-            
           </div>
         </div>
       </div>
-
-    
     </div>
   )
 }
-
