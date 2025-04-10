@@ -96,7 +96,6 @@ export default function Home() {
           <Testimonials/>
           <TeamStats/>
           <FAQSection/>
-          <SenjaWidget/>
 
           <CTASection/>
          
